@@ -1,0 +1,25 @@
+/*HKing 2016-03-10*/
+#content_left > div[style^="display"] *{
+	display: none !important;
+	color: #ffffff !important;
+	height: 0px !important;
+	overflow: hidden !important;
+}
+#content_left > div[style^="display"]{
+	height: 0px !important;
+	overflow: hidden !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+#ec_im_container{
+	display: none !important;
+}
+#con-ar+div{
+	display: none !important;
+}
+#content_right td > div:nth-child(1){
+	display: none !important;
+}
+.fcImgli{
+	display: none !important;
+}
