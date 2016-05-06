@@ -1,5 +1,5 @@
 ﻿{
-	"name": "百度广告终结者(名字就是这么牛X)--by HKing",
+	"name": "百度广告去除插件--by HKing",
 	"version": "1.0",
 	"background": {
 		"scripts": ["background.js"]
@@ -18,7 +18,7 @@
 		"128": "icon_128.png"
 	},
 	"browser_action": {
-		"name": "百度广告终结者(名字就是这么牛X)--by HKing",
+		"name": "百度广告去除插件--by HKing",
 		"default_icon": "icon_128.png"
 	},
 	"manifest_version": 2
