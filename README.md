@@ -2,9 +2,9 @@
 去除百度搜索内容页广告chrome扩展程序(兼容各大“国产”浏览器急速版).
 
 截图： <br />
-使用前：
+<div>使用前：</div>
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/01.png "github")  
-安装扩展程序后：
+<div>安装扩展程序后：</div>
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/02.png "github")  
 
  <div>###离线chrome扩展程序（.crx文件）安装方式： </div>
