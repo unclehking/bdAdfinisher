@@ -11,4 +11,14 @@
  <div>1、打开chrome扩展程序页面 chrome://extensions/ 或者 菜单 > 更多工具> 扩展程序；</div>
  <div>2、把。crx文件拖进该页面（国产浏览器直接拖入任意页面）。</div>
 
+ ###2015-05-24
+ <div>1、新增百度知道搜索内容页广告屏蔽。</div>
+ ```java
+ .widget-ads , .widget-ads ~ div{
+ 	display: none !important;
+ 	height: 0px;
+ 	overflow: hidden;
+ }
+ ```
+
  持续更新中...

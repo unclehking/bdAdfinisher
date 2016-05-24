@@ -23,3 +23,8 @@
 .fcImgli{
 	display: none !important;
 }
+.widget-ads , .widget-ads ~ div{
+	display: none !important;
+	height: 0px;
+	overflow: hidden;
+}

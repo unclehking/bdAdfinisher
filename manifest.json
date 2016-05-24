@@ -6,7 +6,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["https://www.baidu.com/*","http://image.baidu.com/*"],
+			"matches": ["https://www.baidu.com/*","http://*.baidu.com/*"],
 			"css":["style.css"],
 			"run_at":"document_start"
 		}
