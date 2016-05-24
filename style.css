@@ -20,6 +20,9 @@
 
 /*百度贴吧搜索列表页*/
 .widget-ads , .widget-ads ~ div,
+#thread_list > li:not([class^=" j_thread_list"]),
+.aside > div > div > div[id$="ad"],
+.p_postlist > div:not([class^="l_post"]),
 /*百度音乐搜索列表页*/
 .ad-banner,
 /*百度视频搜索列表页*/
@@ -33,4 +36,9 @@
 	display: none !important;
 	height: 0px;
 	overflow: hidden;
+}
+
+#pb_adbanner{
+	position: absolute;
+	top: -999999px;
 }
