@@ -11,19 +11,25 @@
 	padding: 0px !important;
 	margin: 0px !important;
 }
-#ec_im_container{
-	display: none !important;
-}
-#con-ar+div{
-	display: none !important;
-}
-#content_right td > div:nth-child(1){
-	display: none !important;
-}
+#ec_im_container,
+#con-ar+div,
+#content_right td > div:nth-child(1),
 .fcImgli{
 	display: none !important;
 }
-.widget-ads , .widget-ads ~ div{
+
+/*百度贴吧搜索列表页*/
+.widget-ads , .widget-ads ~ div,
+/*百度音乐搜索列表页*/
+.ad-banner,
+/*百度视频搜索列表页*/
+#search-union-ad,.text-advertise,
+/*百度百科搜索列表页*/
+.bottom-promotion,
+/*百度文库搜索列表页*/
+#fengchaoad,.baichuan-slot,
+/*百度新闻搜索列表页*/
+#ecomAdDiv_3{
 	display: none !important;
 	height: 0px;
 	overflow: hidden;
