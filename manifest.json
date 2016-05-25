@@ -24,6 +24,5 @@
 		"name": "百度广告屏蔽插件--by HKing",
 		"default_icon": "icon_128.png"
 	},
-	"update_url":"https://github.com/unclehking/baiduAdfinisher",
 	"manifest_version": 2
 }
