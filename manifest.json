@@ -1,6 +1,7 @@
 ﻿{
-	"name": "百度广告去除插件--by HKing",
-	"version": "1.0",
+	"name": "百度广告屏蔽插件--by HKing",
+	"version": "2.0",
+	"description":"屏蔽百度线上产品页面广告(搜索、新闻、贴吧、知道、音乐、图片、视频、文库等),兼容国产以及其他webkit内核浏览器(360、搜狗、猎豹、百度、UC、QQ等)。",
 	"background": {
 		"scripts": ["background.js"]
 	},
@@ -15,11 +16,14 @@
 		"https://*.baidu.com/*","tabs"
 	],
 	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
 		"128": "icon_128.png"
 	},
 	"browser_action": {
-		"name": "百度广告去除插件--by HKing",
+		"name": "百度广告屏蔽插件--by HKing",
 		"default_icon": "icon_128.png"
 	},
+	"update_url":"https://github.com/unclehking/baiduAdfinisher",
 	"manifest_version": 2
 }

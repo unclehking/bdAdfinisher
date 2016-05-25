@@ -1,20 +1,15 @@
 ﻿/*HKing 2016-03-10*/
 chrome.browserAction.onClicked.addListener(function(tab) {
-
 	chrome.tabs.getAllInWindow(null, function(tabs) {
-		var baidu ;
-		for (var i = 0; i < tabs.length; i++) {
-			var t = tabs[i].url;
-			if (t.match('www.baidu.com')) {
-				var tab = tabs[i];
-				baidu = tabs[i];
+		var bTab = {} ;
+		for(var i in tabs){
+			if (tabs[i].url.match('www.baidu.com')) {
+				bTab.id = tabs[i].id;
+				break;
 			}
 		}
-		if(baidu){
-			chrome.tabs.update(baidu.id, {selected:true});
-		}else{
-			chrome.tabs.create({"url":"http://www.baidu.com/", "selected":true});
-		};
+		if(bTab.id) chrome.tabs.update(bTab.id, {selected:true});
+		else chrome.tabs.create({"url":"https://www.baidu.com/", "selected":true});
 	});
 
 });
