@@ -7,10 +7,8 @@
 2、把.crx文件拖进该页面（国产浏览器直接拖入任意页面）。<br />
 </font>
 
-截图： <br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/01.png "github")  <br />
-安装扩展程序后：<br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/02.png "github")  <br />
+效果截图： <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/sp01.png "github")  <br />
 
 
 
