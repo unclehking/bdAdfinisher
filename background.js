@@ -9,6 +9,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 				break;
 			}
 		}
-		if(!bTab) ct.create({"url":"https://"+url, "selected":true});
+		if(!bTab) ct.create({"url":"https://${url}", "selected":true});
 	});
 });
