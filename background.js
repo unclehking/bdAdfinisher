@@ -1,6 +1,6 @@
 ﻿/*HKing 2016-03-10*/
-chrome.browserAction.onClicked.addListener(function(tab) {
-	chrome.tabs.getAllInWindow(null, function(tabs) {
+chrome.browserAction.onClicked.addListener((tab) =>{
+	chrome.tabs.getAllInWindow(null, (tabs) =>{
 		var bTab,url="www.baidu.com",ct=chrome.tabs;
 		for(var i in tabs){
 			if (tabs[i].url.match(url)) {
@@ -9,6 +9,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 				break;
 			}
 		}
-		if(!bTab) ct.create({"url":"https://${url}", "selected":true});
+		if(!bTab) ct.create({"url":"https://"+url, "selected":true});
 	});
 });
