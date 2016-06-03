@@ -57,7 +57,7 @@
  				break;
  			}
  		}
- 		if(!bTab) ct.create({"url":"https://"+url, "selected":true});
+ 		if(!bTab) ct.create({"url":"https://${url}", "selected":true});
  	});
  });
  ```
