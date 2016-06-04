@@ -1,4 +1,8 @@
 /*HKing 2016-03-10*/
+:root{
+	--bn: none ;
+}
+
 /*搜索*/
 #content_left > div[style^="display"],
 #content_left > div[style^="display"] *{
@@ -8,9 +12,13 @@
 	margin: 0px !important;
 	color: #ffffff !important;
 }
+/*图片*/
 #ec_im_container,#con-ar+div,
 #content_right td > div:nth-child(1),
-.fcImgli{
+.fcImgli,#content_right,#appLauncher,
+.hideTags_search #topInfoBar,#pullRS,
+.global-logged #back-to-top,.hd-paopao,.global-logged .footer
+{
 	display: none !important;
 }
 
@@ -19,18 +27,25 @@
 #thread_list > li:not([class^=" j_thread_list"]),
 .aside > div > div > div[id$="ad"],
 .p_postlist > div:not([class^="l_post"]),
+.firework-wrap,.editor_wrap_bright  + #footer,
 /*音乐*/
-.ad-banner,
+.ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
+.music-foot,.userbar .bd-feedback,.userbar .bd-feedback + .line,
+#adMainTopRight,.mobile-guide-pc .css-icon-pc,
 /*视频*/
 #search-union-ad,.text-advertise,
 /*百科*/
-.bottom-promotion,
+.bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
-#fengchaoad,.baichuan-slot,
+#fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,
 /*新闻*/
-#ecomAdDiv_3,#ecomAdDiv_1,
+#ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,
 /*知道*/
-#union-search_bottom{
+#union-search_bottom,
+#bottom_container,#container .hint_common_restop,
+#wrapper_wrapper #foot,
+.newsearch .aside.fixheight,
+.newsearch #footer{
 	display: none !important;
 	height: 0px;
 	overflow: hidden;
@@ -40,3 +55,14 @@
 	position: absolute;
 	top: -999999px;
 }
+
+/*音乐播放器*/
+.main-wrapper > .mb-layout-bd.column4,.gold-vip-tip,
+#userBar .feedback, #userBar .feedback + .separator,
+.column1 .m-client-product,.mbox #toptip{
+	display: var(--bn) !important;
+}
+#lrcCol{right:0px !important;}
+.main-wrapper > .mb-layout-bd.column2{margin-right: -160px !important;}
+.playlist-length-cloud{bottom: 0px !important;}
+.leftbar-outer{bottom: 70px !important;}
