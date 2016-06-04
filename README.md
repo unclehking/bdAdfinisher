@@ -47,18 +47,20 @@
  ###2016-05-26<br />
  新增：点击扩展图标打开(如果已打开则切换到)百度页面，当书签用，省去每次输入地址链接的麻烦 ^_^<br />
  ```java
- chrome.browserAction.onClicked.addListener(function(tab) {
- 	chrome.tabs.getAllInWindow(null, function(tabs) {
- 		var bTab,url="www.baidu.com",ct=chrome.tabs;
+ const  url="d3d3LmJhaWR1LmNvbQ==";
+ chrome.browserAction.onClicked.addListener((tab) =>{
+ 	chrome.tabs.getAllInWindow(null, (tabs) =>{
+ 		let bTab, ct=chrome.tabs;
  		for(var i in tabs){
- 			if (tabs[i].url.match(url)) {
+ 			if (tabs[i].url.match(atob(url))) {
  				bTab = true;
  				ct.update(tabs[i].id, {selected:true});
  				break;
  			}
  		}
- 		if(!bTab) ct.create({"url":"https://${url}", "selected":true});
+ 		if(!bTab) ct.create({"url":`https://${atob(url)}`, "selected":true});
  	});
+
  });
  ```
 
