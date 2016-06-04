@@ -1,4 +1,5 @@
 ﻿/*HKing 2016-03-10*/
+'use strict';
 const  url="d3d3LmJhaWR1LmNvbQ==";
 chrome.browserAction.onClicked.addListener((tab) =>{
 	chrome.tabs.getAllInWindow(null, (tabs) =>{
@@ -12,5 +13,4 @@ chrome.browserAction.onClicked.addListener((tab) =>{
 		}
 		if(!bTab) ct.create({"url":`https://${atob(url)}`, "selected":true});
 	});
-	
 });

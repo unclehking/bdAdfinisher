@@ -46,7 +46,10 @@
 
  ###2016-05-26<br />
  新增：点击扩展图标打开(如果已打开则切换到)百度页面，当书签用，省去每次输入地址链接的麻烦 ^_^<br />
+###2016-06-04<br />
+ ES6编写 / "use strict"
  ```java
+ 'use strict';
  const  url="d3d3LmJhaWR1LmNvbQ==";
  chrome.browserAction.onClicked.addListener((tab) =>{
  	chrome.tabs.getAllInWindow(null, (tabs) =>{
@@ -60,7 +63,6 @@
  		}
  		if(!bTab) ct.create({"url":`https://${atob(url)}`, "selected":true});
  	});
-
  });
  ```
 
