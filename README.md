@@ -70,4 +70,7 @@
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q0.jpg "github")  <br />
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q1.jpg "github")  <br />
 
+###2016-06-05<br />
+1、修正贴吧置顶帖被当做广告屏蔽的bug。
+
  持续更新中...
