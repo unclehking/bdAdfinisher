@@ -5,7 +5,8 @@
 
 /*搜索*/
 #content_left > div[style^="display"],
-#content_left > div[style^="display"] *{
+#content_left > div[style^="display"] *,.result-op.xpath-log,
+.rrecom-btn-parent{
 	height: 0px !important;
 	overflow: hidden !important;
 	padding: 0px !important;
