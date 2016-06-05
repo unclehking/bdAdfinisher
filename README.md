@@ -8,7 +8,7 @@
 </font>
 
 效果截图： <br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/sp01.png "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/sp01.png "github")  <br />
 
 
 
@@ -67,7 +67,7 @@
  ```
 ###2016-06-04<br />
 1、屏蔽“音乐盒”播放页广告
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/q0.jpg "github")  <br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/q1.jpg "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q0.jpg "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q1.jpg "github")  <br />
 
  持续更新中...
