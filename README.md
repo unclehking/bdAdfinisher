@@ -61,7 +61,7 @@
  				break;
  			}
  		}
- 		if(!bTab) ct.create({"url":`https://${atob(url)}`, "selected":true});
+ 		!bTab && ct.create({"url":`https://${atob(url)}`, "selected":true});
  	});
  });
  ```

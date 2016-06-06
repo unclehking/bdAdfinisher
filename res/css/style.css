@@ -12,7 +12,7 @@
 /*搜索*/
 #content_left > div[style^="display"],
 #content_left > div[style^="display"] *,.result-op.xpath-log,
-.rrecom-btn-parent{
+.rrecom-btn-parent,.to_tieba{
 	height: 0px !important;
 	overflow: hidden !important;
 	padding: 0px !important;
@@ -46,13 +46,17 @@
 /*文库*/
 #fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,
 /*新闻*/
-#ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,
+#ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
+/*知道日报*/
+.aside-wp .aside-union-ad,
+/*百度经验*/
+.aside-pro-container .aside-ads-container,.main-content-bottom .bottom-ads-container,
 /*知道*/
-#union-search_bottom,
+#union-search_bottom,.layout-wrap .left-top-ads,.layout-wrap #union-qbbanner,
 #bottom_container,#container .hint_common_restop,
-#wrapper_wrapper #foot,
-.newsearch .aside.fixheight,
-.newsearch #footer{
+#wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,
+.newsearch .aside.fixheight,table#qbleftdown-container,
+.newsearch #footer,.wgt-footer-new .footer-new{
 	display: none !important;
 	height: 0px;
 	overflow: hidden;
