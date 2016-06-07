@@ -19,6 +19,7 @@
 	margin: 0px !important;
 	color: #ffffff !important;
 }
+.result-op.c-container.xpath-log{height: auto !important;color: #000000 !important;}
 /*图片*/
 #ec_im_container,#con-ar+div,
 #content_right td > div:nth-child(1),
