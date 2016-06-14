@@ -9,6 +9,7 @@
 		{
 			"matches": ["https://www.baidu.com/*","http://*.baidu.com/*"],
 			"css":["res/css/style.css"],
+			"js":["res/js/main.js"],
 			"run_at":"document_start"
 		}
 	],
