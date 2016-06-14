@@ -81,8 +81,8 @@
 .playlist-length-cloud{bottom: 0px !important;}
 .leftbar-outer{bottom: 70px !important;}
 #pauseAd{position: relative;top: -99998px;}
-
 #lrcCol .link-wrapper{display: none;}
+/*歌词全屏模式下样式*/
 :-webkit-full-screen{
 	position: fixed;
 	width: 100% !important;
@@ -99,9 +99,11 @@
 :-webkit-full-screen > *{z-index: 98 !important;}
 :-webkit-full-screen > .link-wrapper{
 	display: block !important;
-	width: 100% !important;
-	height: 100% !important;
+	width: 120% !important;
+	height: 120% !important;
 	z-index: 8 !important;
+	top: -10%;
+	left: -10%;
 }
 :-webkit-full-screen > .link-wrapper img{
 	width: 200%;

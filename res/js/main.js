@@ -1,3 +1,12 @@
+//设置歌词背景图片
+function setLrcBg(src,fe){
+	let t = fe.querySelector(".link-wrapper");
+	if(!t.querySelector("img")){
+		t.innerHTML = `<img src="${src}" />`;
+	}else{
+		t.querySelector("img").src = src;
+	}
+}
 
 //双击显示歌词区域进入/退出全屏“ktv”歌词模式
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -5,12 +14,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	if(!HKingTarget){
 		return;
 	}
-
-	HKingTarget && HKingTarget.addEventListener('dblclick', ()=>{
-		let imgSrc = HKingTarget.querySelector("a.log img").src;
-		//console.log(imgSrc);
-		//console.log(HKingTarget.querySelector(".link-wrapper"));
-		HKingTarget.querySelector(".link-wrapper").innerHTML = '<img src="'+imgSrc+'" />'; //`<img src="${imgSrc}" />`;
+	let tImg = HKingTarget.querySelector(".album a img");
+	tImg.addEventListener('load', ()=>{
+		setLrcBg(tImg.src,HKingTarget);
+	});
+	HKingTarget.addEventListener('dblclick', ()=>{
 		if(document.webkitFullscreenElement != null){
 			document.webkitCancelFullScreen();
 		}else {
