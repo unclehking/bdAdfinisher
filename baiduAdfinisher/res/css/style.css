@@ -57,7 +57,9 @@
 #bottom_container,#container .hint_common_restop,
 #wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,
 .newsearch .aside.fixheight,table#qbleftdown-container,
-.newsearch #footer,.wgt-footer-new .footer-new{
+.newsearch #footer,.wgt-footer-new .footer-new,
+/*home*/
+#ftCon{
 	display: none !important;
 	height: 0px;
 	overflow: hidden;
