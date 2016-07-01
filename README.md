@@ -8,7 +8,7 @@
 </font>
 
 效果截图： <br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/sp01.png "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/sp01.png "github")  <br />
 
 
 
@@ -36,8 +36,8 @@
  ```
 ###2016-06-04<br />
 1、屏蔽“音乐盒”播放页广告
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q0.jpg "github")  <br />
-![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/res/pic/q1.jpg "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q0.jpg "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q1.jpg "github")  <br />
 
 ###2016-06-05<br />
 1、修正贴吧置顶帖被当做广告屏蔽的bug。
@@ -49,7 +49,7 @@
 
 ###2016-06-15<br />
 1、新增音乐盒歌词显示“K歌”模式(双击歌词区域进入、退出)。
-![github](http://i1.buimg.com/4e9ce300f0e5be1b.jpg "github")  <br />
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q2.jpg "github")  <br />
 
 
  持续更新中...
