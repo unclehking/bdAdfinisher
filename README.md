@@ -17,7 +17,7 @@
 
  ###2016-05-26<br />
  新增：点击扩展图标打开(如果已打开则切换到)百度页面，当书签用，省去每次输入地址链接的麻烦 ^_^<br />
-###2016-06-04<br />
+### 2016-06-04<br />
  ES6编写 / "use strict"
  ```java
  const  url="d3d3LmJhaWR1LmNvbQ==";
@@ -34,22 +34,25 @@
  	});
  });
  ```
-###2016-06-04<br />
+### 2016-06-04<br />
 1、屏蔽“音乐盒”播放页广告
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q0.jpg "github")  <br />
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q1.jpg "github")  <br />
 
-###2016-06-05<br />
+### 2016-06-05<br />
 1、修正贴吧置顶帖被当做广告屏蔽的bug。
 
-###2016-06-07<br />
+### 2016-06-07<br />
 1、修正百度翻译被当做广告屏蔽的bug。
 ###2016-06-13<br />
 1、屏蔽音乐盒播放暂停时展示的广告。
 
-###2016-06-15<br />
+### 2016-06-15<br />
 1、新增音乐盒歌词显示“K歌”模式(双击歌词区域进入、退出)。
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q2.jpg "github")  <br />
+
+### 2016-07-08<br />
+1、修复贴吧回帖之后所有回帖被隐藏的bug。
 
 
  持续更新中...

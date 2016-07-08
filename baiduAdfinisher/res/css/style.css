@@ -125,3 +125,9 @@
 	line-height: 60px !important;
 	color: #00ff00 !important;
 }
+
+/*贴吧*/
+.p_postlist > div#j_p_postlist{
+	height: auto !important;
+	display: block !important;
+}
