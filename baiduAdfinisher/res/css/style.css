@@ -35,6 +35,7 @@
 #thread_list > li:not([class^=" j_thread_list"]),
 .aside > div > div > div[id$="ad"],
 .p_postlist > div:not([class^="l_post"]),
+.j_thread_list:not([data-field]),
 .firework-wrap,.editor_wrap_bright  + #footer,
 /*音乐*/
 .ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
