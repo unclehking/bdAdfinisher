@@ -131,3 +131,5 @@
 	height: auto !important;
 	display: block !important;
 }
+
+:-webkit-full-screen .lrc-wrapper::-webkit-scrollbar {width: 0px;height:0px;}
