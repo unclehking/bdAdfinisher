@@ -10,9 +10,18 @@
 ::-webkit-scrollbar-thumb:horizontal:hover{background: #7e7e7e}
 
 /*搜索*/
-#content_left > div[style^="display"],
-#content_left > div[style^="display"] *,.result-op.xpath-log,
-.rrecom-btn-parent,.to_tieba{
+/*#content_left > div[style^="display"]{
+	height: 0px !important;
+	overflow: hidden !important;
+}*/
+#content_left{ position: relative; }
+*#content_left > div[style^="display"]{
+	position: absolute;
+	top: -10000px;
+}*
+.result-op.xpath-log,
+.rrecom-btn-parent,
+.to_tieba{
 	height: 0px !important;
 	overflow: hidden !important;
 	padding: 0px !important;
@@ -41,13 +50,13 @@
 /*音乐*/
 .ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
 .music-foot,.userbar .bd-feedback,.userbar .bd-feedback + .line,
-#adMainTopRight,.mobile-guide-pc .css-icon-pc,
+#adMainTopRight,.mobile-guide-pc .css-icon-pc,.ad-imax,
 /*视频*/
-#search-union-ad,.text-advertise,
+#search-union-ad,.text-advertise,#index_right_float,.baidu-adv-rightbottom-pop-container,
 /*百科*/
 .bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
-#fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,
+#fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,.search-aside-adWrap,.search-aside-newadWrap,.mod.tousu,
 /*新闻*/
 #ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
 /*知道日报*/
@@ -59,7 +68,7 @@
 #bottom_container,#container .hint_common_restop,
 #wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,
 .newsearch .aside.fixheight,table#qbleftdown-container,
-.newsearch #footer,.wgt-footer-new .footer-new,
+.newsearch #footer,.wgt-footer-new .footer-new,.bannerdown,
 /*home*/
 #ftCon{
 	display: none !important;

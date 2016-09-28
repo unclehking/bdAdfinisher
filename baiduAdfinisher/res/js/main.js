@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	if(!lrcTarget){
 		return;
 	}
-	let tImg = lrcTarget.querySelector(".album a img");
+	let tImg = lrcTarget.querySelector("img");
 	tImg.addEventListener('load', ()=>{
 		setLrcBg(tImg.src,lrcTarget);
 	});
@@ -25,4 +25,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
 			lrcTarget.webkitRequestFullScreen();
 		};
 	});
+	setLrcBg(tImg.src,lrcTarget);
 });
