@@ -7,7 +7,7 @@
 2、把.crx文件拖进该页面（国产浏览器直接拖入任意页面）。<br />
 </font>
 ### 关于未上架扩展被chrome禁用的问题：<br />
-目前已知较有效方法就是安装chrome开发版 下载地址：https://www.chromium.org/getting-involved/dev-channel
+目前已知较有效方法就是安装chrome开发版（dev） 下载地址：https://www.chromium.org/getting-involved/dev-channel
 请卸载原有的chrome之后全新安装（非常重要）
 
 
