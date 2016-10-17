@@ -6,6 +6,10 @@
 1、打开chrome扩展程序页面(chrome://extensions/ 或者 菜单 > 更多工具> 扩展程序)；<br />
 2、把.crx文件拖进该页面（国产浏览器直接拖入任意页面）。<br />
 </font>
+### 关于未上架扩展被chrome禁用的问题：<br />
+目前已知较有效方法就是安装chrome开发版 下载地址：https://www.chromium.org/getting-involved/dev-channel
+请卸载原有的chrome之后全新安装（非常重要）
+
 
 效果截图： <br />
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/sp01.png "github")  <br />
