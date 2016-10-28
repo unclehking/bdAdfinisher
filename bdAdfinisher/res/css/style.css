@@ -47,6 +47,7 @@
 .j_thread_list:not([data-field]),
 #j_p_postlist > .l_post_bright:not([data-field]),
 .firework-wrap,.editor_wrap_bright  + #footer,
+#ec_zwd_ctner,.newsearch .list-footer,
 /*音乐*/
 .ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
 .music-foot,.userbar .bd-feedback,.userbar .bd-feedback + .line,
@@ -61,7 +62,7 @@
 #ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
 /*知道日报*/
 .aside-wp .aside-union-ad,
-/*百度经验*/
+/*白度经验*/
 .aside-pro-container .aside-ads-container,.main-content-bottom .bottom-ads-container,
 /*知道*/
 #union-search_bottom,.layout-wrap .left-top-ads,.layout-wrap #union-qbbanner,

@@ -1,0 +1,29 @@
+﻿{
+	"name": "白度广告屏蔽插件--by HKing",
+	"version": "2.1",
+	"description":"屏蔽白度线上产品页面广告(搜索、新闻、贴吧、知道、音乐、图片、视频、文库等),兼容国产(360、搜狗、猎豹、百度、UC、QQ等)以及其他webkit内核浏览器; 点击扩展图标打开(如果已打开则切换到)百度页面，可当书签用，省去每次输入地址的麻烦。",
+	"background": {
+		"scripts": ["res/js/background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.baidu.com/*","http://*.baidu.com/*","https://*.baidu.com/*"],
+			"css":["res/css/style.css"],
+			"js":["res/js/main.js"],
+			"run_at":"document_start"
+		}
+	],
+	"permissions": [
+		"https://*.baidu.com/*","tabs"
+	],
+	"icons": {
+		"16": "res/pic/icon_16.png",
+		"48": "res/pic/icon_48.png",
+		"128": "res/pic/icon_128.png"
+	},
+	"browser_action": {
+		"name": "白度广告屏蔽插件--by HKing",
+		"default_icon": "res/pic/icon_128.png"
+	},
+	"manifest_version": 2
+}
