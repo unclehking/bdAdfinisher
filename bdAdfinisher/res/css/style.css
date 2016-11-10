@@ -54,10 +54,12 @@
 #adMainTopRight,.mobile-guide-pc .css-icon-pc,.ad-imax,
 /*视频*/
 #search-union-ad,.text-advertise,#index_right_float,.baidu-adv-rightbottom-pop-container,
+#main > .container > div[id^="video_adm_cont"],
 /*百科*/
 .bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
 #fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,.search-aside-adWrap,.search-aside-newadWrap,.mod.tousu,
+#doc #wkad5,
 /*新闻*/
 #ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
 /*知道日报*/
