@@ -1,11 +1,14 @@
 # baiduAdfinisher
 屏蔽百度线上产品页面广告chrome扩展程序，兼容各大“国产”浏览器急速版(360、搜狗、猎豹、百度、UC、QQ等)以及其他webkit内核浏览器。
 
-<font color="#ff0000">
+### 已经上架Google网上应用商店：<br />
+https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/bdkobfnbgkbemcfgopfollaikdlknlkm?utm_source=en-et-na-us-oc-webstrapp
+
+
 ### 离线chrome扩展程序（.crx文件）安装方式：<br />
 1、打开chrome扩展程序页面(chrome://extensions/ 或者 菜单 > 更多工具> 扩展程序)；<br />
 2、把.crx文件拖进该页面（国产浏览器直接拖入任意页面）。<br />
-</font>
+
 ### 关于未上架扩展被chrome禁用的问题：<br />
 请参考：https://github.com/unclehking/bdAdfinisher/issues/3#issuecomment-259640598
 
