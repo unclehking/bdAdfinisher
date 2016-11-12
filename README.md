@@ -28,23 +28,7 @@ https://github.com/unclehking/bdAdfinisher/tree/bdAdfinisher_edge
 
  ###2016-05-26<br />
  新增：点击扩展图标打开(如果已打开则切换到)百度页面，当书签用，省去每次输入地址链接的麻烦 ^_^<br />
-### 2016-06-04<br />
- ES6编写 / "use strict"
- ```java
- const  url="d3d3LmJhaWR1LmNvbQ==";
- chrome.browserAction.onClicked.addListener((tab) =>{
- 	chrome.tabs.getAllInWindow(null, fuckBat = tabs =>{
- 		for(var t of tabs){
- 			if (t.url.match(atob(url))) {
- 				fuckBat.bTab = true;
- 				chrome.tabs.update(t.id, {selected:true});
- 				break;
- 			}
- 		}
- 		!fuckBat.bTab && chrome.tabs.create({"url":`https://${atob(url)}`, "selected":true});
- 	});
- });
- ```
+
 ### 2016-06-04<br />
 1、屏蔽“音乐盒”播放页广告
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/q0.jpg "github")  <br />
