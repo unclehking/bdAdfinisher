@@ -4,6 +4,11 @@
 ### 已经上架Google网上应用商店：<br />
 https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/bdkobfnbgkbemcfgopfollaikdlknlkm?utm_source=en-et-na-us-oc-webstrapp
 
+### Firefox分支 
+https://github.com/unclehking/bdAdfinisher/tree/bdAdfinisher_firefox
+
+### MS Edge分支 
+https://github.com/unclehking/bdAdfinisher/tree/bdAdfinisher_edge
 
 ### 离线chrome扩展程序（.crx文件）安装方式：<br />
 1、打开chrome扩展程序页面(chrome://extensions/ 或者 菜单 > 更多工具> 扩展程序)；<br />
