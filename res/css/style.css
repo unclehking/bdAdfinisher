@@ -81,6 +81,8 @@
 /*移动版图片搜索*/
 #imglist .waterfall-list .waterfall-row:nth-child(1),
 #imglist .waterfall-list .waterfall-row:nth-child(2),
+/*移动版home*/
+#page .blank-frame,#page #bottom,
 /*home*/
 #ftCon{
 	display: none !important;
@@ -96,6 +98,7 @@
 	height: auto !important;
 	overflow: auto !important;
 }
+
 
 /*音乐播放器*/
 .main-wrapper > .mb-layout-bd.column4,.gold-vip-tip,

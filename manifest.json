@@ -1,5 +1,5 @@
 ﻿{
-	"name": "某度广告屏蔽插件--by HKing",
+	"name": "百度广告屏蔽",
 	"version": "2.1",
 	"description":"屏蔽百度线上产品页面广告(搜索、新闻、贴吧、知道、音乐、图片、视频、文库等),兼容国产(360、搜狗、猎豹、百度、UC、QQ等)以及其他webkit内核浏览器; 点击扩展图标打开(如果已打开则切换到)百度页面，可当书签用，省去每次输入地址的麻烦。",
 	"background": {
@@ -22,7 +22,7 @@
 		"128": "res/pic/icon_128.png"
 	},
 	"browser_action": {
-		"name": "某度广告屏蔽插件--by HKing",
+		"name": "百度广告屏蔽--by HKing",
 		"default_icon": "res/pic/icon_128.png"
 	},
 	"manifest_version": 2
