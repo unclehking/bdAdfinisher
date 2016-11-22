@@ -9,5 +9,5 @@ https://addons.mozilla.org/zh-CN/firefox/addon/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/sp01.png "github")  <br />
 
 ## 2016-11-22
-1、去除移动版首页推荐内容
+1、去除移动版首页推荐内容 <br />
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/bdAdfinisher_firefox/screenshot/mff.png "github")  <br />
