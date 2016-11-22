@@ -10,3 +10,4 @@ https://addons.mozilla.org/zh-CN/firefox/addon/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91
 
 ## 2016-11-22
 1、去除移动版首页推荐内容
+![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/bdAdfinisher_firefox/screenshot/mff.png "github")  <br />

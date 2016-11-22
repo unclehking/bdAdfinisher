@@ -98,7 +98,15 @@
 	height: auto !important;
 	overflow: auto !important;
 }
-
+/*移动版首页*/
+#page #index-card #navs{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#page #index-card #logo{
+	margin-top: 60px;
+}
 
 /*音乐播放器*/
 .main-wrapper > .mb-layout-bd.column4,.gold-vip-tip,
