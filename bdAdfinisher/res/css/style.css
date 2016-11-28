@@ -55,6 +55,7 @@
 /*视频*/
 #search-union-ad,.text-advertise,#index_right_float,.baidu-adv-rightbottom-pop-container,
 #main > .container > div[id^="video_adm_cont"],
+.section .mod-full-good,
 /*百科*/
 .bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
@@ -72,6 +73,7 @@
 #wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,
 .newsearch .aside.fixheight,table#qbleftdown-container,
 .newsearch #footer,.wgt-footer-new .footer-new,.bannerdown,
+.zhidao-index #wgt-ads,
 /*移动版贴吧*/
 #tlist .threads_list li:not([class="tl_shadow"]),.ue_revision .container.j_container > div[style^="background"],#j_light_see_index,
 /*移动版文库*/
