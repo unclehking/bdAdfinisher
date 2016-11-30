@@ -70,10 +70,10 @@
 /*知道*/
 #union-search_bottom,.layout-wrap .left-top-ads,.layout-wrap #union-qbbanner,
 #bottom_container,#container .hint_common_restop,
-#wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,
+#wrapper_wrapper #foot,#qb-side #union-asplu,#qb-side #union-qbrightdown,#qb-side #union-asplu + div:not([class^="cms-slide"]),
 .newsearch .aside.fixheight,table#qbleftdown-container,
 .newsearch #footer,.wgt-footer-new .footer-new,.bannerdown,
-.zhidao-index #wgt-ads,
+.zhidao-index #wgt-ads,#body.container section.qb-section + div,
 /*移动版贴吧*/
 #tlist .threads_list li:not([class="tl_shadow"]),.ue_revision .container.j_container > div[style^="background"],#j_light_see_index,
 /*移动版文库*/
