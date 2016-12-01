@@ -83,6 +83,8 @@
 /*移动版图片搜索*/
 #imglist .waterfall-list .waterfall-row:nth-child(1),
 #imglist .waterfall-list .waterfall-row:nth-child(2),
+/*拇指医生*/
+#union-qbbanner,.union-sug-wrap + div.leftnest,
 /*home*/
 #ftCon{
 	display: none !important;
