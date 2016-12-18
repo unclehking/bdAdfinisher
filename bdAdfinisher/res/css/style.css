@@ -34,7 +34,10 @@
 #content_right td > div:nth-child(1),
 .fcImgli,#content_right,#appLauncher,
 .hideTags_search #topInfoBar,#pullRS,
-.global-logged #back-to-top,.hd-paopao,.global-logged .footer
+.global-logged #back-to-top,.hd-paopao,.global-logged .footer,
+#srcPic .text-link-ads.new-style,
+#sider #adCard,
+#sider #wmContainer
 {
 	display: none !important;
 }
@@ -56,6 +59,7 @@
 #search-union-ad,.text-advertise,#index_right_float,.baidu-adv-rightbottom-pop-container,
 #main > .container > div[id^="video_adm_cont"],
 .section .mod-full-good,
+#main.video-search-result-wrap div[id^="video_adm_cont"],
 /*百科*/
 .bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
@@ -122,10 +126,11 @@
 	top: 0;
 	left: 0;
 	background: #ffffff !important;
+	text-align: center;
 }
 #lrcCol .lrc-wrapper{bottom: 0 !important;}
 :-webkit-full-screen .ui-resizable{display: none;}
-:-webkit-full-screen .album-wrapper{background: transparent !important;}
+:-webkit-full-screen .album-wrapper{background: transparent !important; left: 50%;margin-left: -90px !important;}
 :-webkit-full-screen .lrc-wrapper{font-size: 18px !important;background: transparent !important;}
 :-webkit-full-screen > *{z-index: 98 !important;}
 :-webkit-full-screen > .link-wrapper{
@@ -147,6 +152,7 @@
 	color: #ffffff !important;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 	line-height: 40px !important;
+	text-align: center !important;
 }
 :-webkit-full-screen li.ui-lrc-current{
 	font-size: 20px !important;
