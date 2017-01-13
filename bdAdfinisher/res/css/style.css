@@ -10,15 +10,11 @@
 ::-webkit-scrollbar-thumb:horizontal:hover{background: #7e7e7e}
 
 /*搜索*/
-/*#content_left > div[style^="display"]{
-	height: 0px !important;
-	overflow: hidden !important;
-}*/
 #content_left{ position: relative; }
-*#content_left > div[style^="display"]{
+#content_left > div[style^="display"]{
 	position: absolute;
 	top: -10000px;
-}*
+}
 .result-op.xpath-log,
 .rrecom-btn-parent,
 .to_tieba{
