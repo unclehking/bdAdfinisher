@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="App">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js"> </script>
+		<link rel="stylesheet" type="text/css" href="css/popup.css"/>
+	</head>
+	<body ng-controller="popup">
+		<div>
+			<div class="btnWrap" class="wrap">
+				<button ng-click="goWechat()" style="margin-bottom: 20px;">打开百度</button>
+			</div>
+		</div>
+		<div class="wrap" >
+			
+			<div class="c">
+				<div class="tab">
+					<div ng-class="{'active':pay.index==0}" ng-mouseover='pay.index=0'>微信</div>
+					<div ng-class="{'active':pay.index==1}" ng-mouseover='pay.index=1'>支付宝</div>
+					<div ng-class="{'active':pay.index==2}" ng-mouseover='pay.index=2'>咨询</div>
+				</div>
+				<div class="tabContent">
+					<img ng-if="pay.index==0" src="http://hkingme.oss-cn-shenzhen.aliyuncs.com/js/wechatpay.png"/>
+					<img ng-if="pay.index==1" src="http://hkingme.oss-cn-shenzhen.aliyuncs.com/js/alipay.jpg"/>
+					<img ng-if="pay.index==2" src="http://hkingme.oss-cn-shenzhen.aliyuncs.com/js/hking.png"/>
+				</div>
+				<p class="title" ng-if="pay.index!=2">扫码打赏开发者</p>
+				<p class="title" ng-if="pay.index==2">微信扫码咨询开发者</p>
+			</div>
+		</div>
+		
+		<script src="js/popup.js"> </script>
+	</body>
+</html>
+
+

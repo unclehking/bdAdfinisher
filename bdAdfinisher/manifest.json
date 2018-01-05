@@ -1,8 +1,8 @@
 ﻿{
 	"name": "百度广告屏蔽",
-	"version": "2.5",
+	"version": "2.6",
 	"short_name":"屏蔽百度广告Chrome扩展程序",
-	"description":"屏蔽百度线上产品页面广告(搜索、新闻、贴吧、知道、音乐、图片、视频、文库等); 点击扩展图标打开(如果已打开则切换到)百度页面，可当书签用，省去每次输入地址的麻烦。",
+	"description":"屏蔽百度线上产品页面广告(搜索、新闻、贴吧、知道、音乐、图片、视频、文库等)。可当书签用，省去每次输入百度地址的麻烦。点击扩展图标，微信扫描咨询开发者，同时欢迎打赏 （ ：",
 	"background": {
 		"scripts": ["res/js/background.js"]
 	},
@@ -24,7 +24,8 @@
 	},
 	"browser_action": {
 		"name": "百度广告屏蔽--by HKing",
-		"default_icon": "res/pic/icon_128.png"
+		"default_icon": "res/pic/icon_128.png",
+		"default_popup": "res/popup.html"
 	},
 	"manifest_version": 2
 }

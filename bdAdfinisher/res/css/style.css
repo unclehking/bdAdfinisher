@@ -56,6 +56,11 @@
 #main > .container > div[id^="video_adm_cont"],
 .section .mod-full-good,
 #main.video-search-result-wrap div[id^="video_adm_cont"],
+.adv-background.animated.fadeIn,
+.main-content #ad_search_video_column_middle,
+.v2-sidebar-content #searchpage_loopVideo,
+.main-content #unionAdvSearchBottomMain,
+.side-content #unionAdvSearchBottomSide,
 /*百科*/
 .bottom-promotion,#side_box_unionAd,#side-share,.wgt-footer-main,
 /*文库*/
@@ -74,6 +79,8 @@
 .newsearch .aside.fixheight,table#qbleftdown-container,
 .newsearch #footer,.wgt-footer-new .footer-new,.bannerdown,
 .zhidao-index #wgt-ads,#body.container section.qb-section + div,
+.has-menu #body .widget-sma,
+.has-menu #body .widget-sma + div + div,
 /*移动版贴吧*/
 #tlist .threads_list li:not([class="tl_shadow"]),.ue_revision .container.j_container > div[style^="background"],#j_light_see_index,
 /*移动版文库*/
@@ -104,6 +111,7 @@
 /*音乐播放器*/
 .main-wrapper > .mb-layout-bd.column4,.gold-vip-tip,
 #userBar .feedback, #userBar .feedback + .separator,
+#skin-shape + div,
 .column1 .m-client-product,.mbox #toptip{
 	display: var(--bn) !important;
 }
