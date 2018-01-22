@@ -47,6 +47,9 @@
 #j_p_postlist > .l_post_bright:not([data-field]),
 .firework-wrap,.editor_wrap_bright  + #footer,
 #ec_zwd_ctner,.newsearch .list-footer,
+#j_p_postlist .p_author .icon_relative:not(.j_user_card),
+#j_p_postlist .p_author .p_author_name,
+#j_p_postlist .d_post_content_main .p_content_nameplate,
 /*音乐*/
 .ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
 .music-foot,.userbar .bd-feedback,.userbar .bd-feedback + .line,
