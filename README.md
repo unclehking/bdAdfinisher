@@ -8,6 +8,11 @@ https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A%E
 https://github.com/unclehking/bdAdfinisher/tree/bdAdfinisher_firefox
 
 ### MS Edge分支 
+#### 使用方法：
+1. 打开Edge,在地址栏中输入 `about:flags`
+2. 选中 **启用开发人员扩展功能** ，之后按要求重启浏览器
+3. 在扩展界面中下滑找到添加扩展，导入扩展即可
+#### Edge分支链接
 https://github.com/unclehking/bdAdfinisher/tree/bdAdfinisher_edge
 
 ### 离线chrome扩展程序（.crx文件）安装方式：<br />
