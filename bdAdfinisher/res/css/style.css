@@ -10,7 +10,7 @@
 ::-webkit-scrollbar-thumb:horizontal:hover{background: #7e7e7e}
 
 /*搜索*/
-#content_left{ position: relative; }
+#content_left{ position: relative; float: none !important;}
 #content_left > div[style^="display"]{
 	position: absolute;
 	top: -10000px;
@@ -25,6 +25,19 @@
 	color: #ffffff !important;
 }
 .result-op.c-container.xpath-log{height: auto !important;color: #000000 !important;}
+
+/* 2021-12-15 */
+body[link] #wrapper #wrapper_wrapper #content_left > div:not(.c-container),
+body[link] #wrapper #wrapper_wrapper #content_left > .result.c-container.new-pmd[id="1"]{
+	display: none !important;
+}
+#top-ad{
+	display: none !important;
+}
+/* 2021-12-15 */
+
+
+
 /*图片*/
 #ec_im_container,#con-ar+div,
 #content_right td > div:nth-child(1),
@@ -69,6 +82,7 @@
 /*文库*/
 #fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,.search-aside-adWrap,.search-aside-newadWrap,.mod.tousu,
 #doc #wkad5,
+.search-result-list-wrap .fc-first-result-wrap,.base-layout-content .base-layout-content-right,.bottom-right-dsp-ad-wrap,  /* 2021-12-15 */
 /*新闻*/
 #ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
 /*知道日报*/
